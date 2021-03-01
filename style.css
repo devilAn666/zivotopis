@@ -15,7 +15,7 @@ h1 {
 h2 {
   color: gray;
   font-size: 40px;
-}
+ }
 
 li {
   font-style: italic;
@@ -38,6 +38,7 @@ li {
 
 .hlavicka {
   padding: 20px 0;
+  margin: 0;
 }
 
 img {
@@ -46,6 +47,7 @@ img {
   padding: 50px 10%;
 }
 
+.datum,
 .jinetext {
   font-weight: bold;
 }
@@ -62,17 +64,3 @@ section {
   padding: 50px 15%;
 }
 
-.table1 {
-  display: table;
-  width: auto;
-}
-.row {
-  display: table-row;
-  width: auto;
-  clear: both;
-}
-.cell {
-  display: table-cell;
-  float: left;
-  width: 200px;
-}
