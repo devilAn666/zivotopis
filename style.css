@@ -1,24 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    background-color: rgb(200, 200, 200);
-    line-height: 1.5;
-    color: #282425;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  background-color: rgb(200, 200, 200);
+  line-height: 1.5;
+  color: #282425;
 }
 
 h1 {
-    color:dimgrey;
-    text-align: center;
-    font-size: 80px;  
-   }
+  color: dimgrey;
+  text-align: center;
+  font-size: 80px;
+}
 
 h2 {
-    color:gray;
-    font-size: 40px;
+  color: gray;
+  font-size: 40px;
 }
 
 li {
-    font-style: italic;
+  font-style: italic;
 }
 
 .omne,
@@ -26,42 +26,53 @@ li {
 .odborneznalosti,
 .ridickyprukaz,
 .jine {
-    background-color: rgb(195, 195, 195);
+  background-color: rgb(195, 195, 195);
 }
 
 .paticka {
-    background-color: #282425;
-    color: white;
-    text-align: center;
-    padding: 20px 15%;
+  background-color: #282425;
+  color: white;
+  text-align: center;
+  padding: 20px 15%;
 }
 
 .hlavicka {
-    padding: 20px 0;
-   }
+  padding: 20px 0;
+}
 
 img {
-    width: 13%;
-    float: right;
-    padding: 50px 10%;
+  width: 13%;
+  float: right;
+  padding: 50px 10%;
 }
 
 .jinetext {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .nazevcertifikatu {
-    font-weight: bold;
-}
-
-table {
-    border-spacing: 50px;
+  font-weight: bold;
 }
 
 td {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 section {
-    padding: 50px 15%;
+  padding: 50px 15%;
+}
+
+.table1 {
+  display: table;
+  width: auto;
+}
+.row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+.cell {
+  display: table-cell;
+  float: left;
+  width: 200px;
 }
